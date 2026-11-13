@@ -3,13 +3,13 @@
 把可复用的「提示词工程」经验固化成 Skill，随取随用。
 当前收录 **1** 个技能：Seedance 2.5 视频提示词优化大师。
 
-[![skills](https://img.shields.io/badge/skills-cli-blue)](https://github.com/vercel-labs/skills) ![license](https://img.shields.io/badge/license-personal-lightgrey)
-
 ---
 
 ## 🚀 安装
 
 ### 方式一：skills CLI（推荐）
+
+> 需要能连 GitHub（github.com 443）。国内网络若克隆超时，用方式二或配好代理。
 
 ```bash
 # 只看仓库里有哪些 skill
