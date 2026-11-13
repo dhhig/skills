@@ -46,3 +46,4 @@ cp -R /tmp/dhhig-skills/skills/* ~/.dsh/skills/
 | 生成结果动作做不完 | 单镜动作太多；减少该镜动作数量，或把长镜拆成两镜 |
 | 想要特定风格 | 明确说"风格：xxx"；不指定时技能默认不写风格词，只在交付时推荐 1–3 种 |
 | 超过 30s | 技能会按 30s 收敛，或建议拆成多条生成再剪 |
+| `npx skills add` 卡在 Cloning / RPC failed | 本机连不上 github.com 443（常见于 DNS 被污染）。先确认 `curl -I https://github.com` 可通，或改用方式 2/3 手动复制 |
